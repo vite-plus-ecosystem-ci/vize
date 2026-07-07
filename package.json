@@ -13,11 +13,8 @@
     "@typescript/native-preview": "catalog:typescript",
     "glob": "catalog:repo-tooling",
     "json-schema-to-typescript": "catalog:repo-tooling",
-    "oxfmt": "catalog:linting",
-    "oxlint": "catalog:linting",
     "pkg-pr-new": "catalog:repo-tooling",
     "shiki": "catalog:content",
-    "tsdown": "catalog:vite-stack",
     "vite": "catalog:vite-stack",
     "vite-plus": "catalog:vite-stack"
   },
@@ -47,7 +44,19 @@
       "svgo": "4.0.1",
       "tar": "7.5.16",
       "vite@>=7.0.0 <7.3.5": "7.3.5",
-      "yaml": "2.9.0"
+      "yaml": "2.9.0",
+      "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-commit.fd1ae7eab160c92f3907a20e80e92d2e87403c20",
+      "vitest": "4.1.9"
+    },
+    "peerDependencyRules": {
+      "allowAny": [
+        "vite",
+        "vitest"
+      ],
+      "allowedVersions": {
+        "vite": "*",
+        "vitest": "*"
+      }
     }
   }
 }

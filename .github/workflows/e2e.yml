@@ -52,7 +52,7 @@ jobs:
   app-readiness:
     name: app-readiness
     if: ${{ github.event_name == 'pull_request' }}
-    runs-on: blacksmith-32vcpu-ubuntu-2404
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
     permissions:
       contents: read # required by actions/checkout
@@ -123,7 +123,7 @@ jobs:
   testbox:
     name: Testbox
     if: ${{ github.event_name == 'workflow_dispatch' && inputs.testbox_id != '' }}
-    runs-on: blacksmith-32vcpu-ubuntu-2404
+    runs-on: ubuntu-24.04
     timeout-minutes: 120
     permissions:
       contents: read
@@ -194,7 +194,7 @@ jobs:
   app-e2e:
     name: app-e2e (${{ matrix.suite }})
     if: ${{ github.event_name != 'pull_request' && (github.event_name != 'workflow_dispatch' || inputs.testbox_id == '') }}
-    runs-on: blacksmith-32vcpu-ubuntu-2404
+    runs-on: ubuntu-24.04
     timeout-minutes: 90
     permissions:
       contents: read

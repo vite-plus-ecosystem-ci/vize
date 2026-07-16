@@ -31,6 +31,8 @@
     "@vue/test-utils": "catalog:vue-stable",
     "playwright": "catalog:testing",
     "vite": "catalog:vite-stack",
-    "vite-plus": "catalog:vite-stack"
+    "vite-plus": "catalog:vite-stack",
+    "@vitest/browser-playwright": "catalog:vite-stack",
+    "vitest": "catalog:vite-stack"
   }
 }

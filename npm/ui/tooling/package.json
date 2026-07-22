@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@types/node": "catalog:typescript",
+    "vite": "catalog:vite-stack",
     "vite-plus": "catalog:vite-stack"
   },
   "engines": {

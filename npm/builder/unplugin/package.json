@@ -86,6 +86,7 @@
     "esbuild": "catalog:bundlers",
     "rollup": "catalog:bundlers",
     "typescript": "catalog:typescript",
+    "vite": "catalog:vite-stack",
     "vite-plus": "catalog:vite-stack",
     "vue": "catalog:vue-beta",
     "webpack": "catalog:bundlers"

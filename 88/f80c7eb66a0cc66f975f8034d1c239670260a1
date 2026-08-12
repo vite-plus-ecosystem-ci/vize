@@ -1,0 +1,53 @@
+.github/workflows/benchmark.yml
+  s_fdbdae8c09ca7c::t_4220c413ca36d7 43,261,323
+.github/workflows/build-docs.yml
+  s_fdbdae8c09ca7c::t_ec1c2c3dbcff33 23,65
+.github/workflows/check-bench.yml
+  s_fdbdae8c09ca7c::t_eb80c68f41a243 56,107
+.github/workflows/check.yml
+  s_fdbdae8c09ca7c::t_922d997927c626 27,46,57,76,140,164,187,216,238,275,282,289,333,359,389,416,474,532,631,672
+.github/workflows/content-mapper-conformance.yml
+  s_fdbdae8c09ca7c::t_71c6788d1daca4 110
+.github/workflows/criterion-bench.yml
+  s_fdbdae8c09ca7c::t_9781368ed94ae4 52,144
+.github/workflows/deploy-docs.yml
+  s_fdbdae8c09ca7c::t_b79ce19c454a7f 23
+.github/workflows/e2e.yml
+  s_fdbdae8c09ca7c::t_b667b56b3ce001 145,193,305
+.github/workflows/fuzz.yml
+  s_fdbdae8c09ca7c::t_9cfa2a36e2e745 61
+.github/workflows/miri.yml
+  s_fdbdae8c09ca7c::t_4f7371486537b0 23
+.github/workflows/native-smoke.yml
+  s_fdbdae8c09ca7c::t_e05c57f5a3c40b 32,35,41,44,117,120,126,129
+.github/workflows/pkg-pr-new.yml
+  s_fdbdae8c09ca7c::t_edf4dd2ddcc59b 24
+.github/workflows/real-project-matrix.yml
+  s_fdbdae8c09ca7c::t_29cb6863024a22 55
+.github/workflows/release-open-vsx.yml
+  s_fdbdae8c09ca7c::t_56387df70609f2 28
+.github/workflows/release-preflight.yml
+  s_fdbdae8c09ca7c::t_8b1e2037e45109 17,40
+.github/workflows/release.yml
+  s_fdbdae8c09ca7c::t_50505c4c27a088 21,109,147,178,318,441,929,954
+.github/workflows/tool-benchmark.yml
+  s_fdbdae8c09ca7c::t_609f98dbc9d3f7 73,128,187,212,243
+.github/workflows/vue-benchmarks-replay.yml
+  s_fdbdae8c09ca7c::t_7639dc9363706f 35,85
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "88f80c7eb66a0cc66f975f8034d1c239670260a1",
+  "prompts": {},
+  "sessions": {
+    "s_fdbdae8c09ca7c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1202c2a1-3a3c-4672-9642-5e437556b1a7",
+        "model": "claude-opus-5"
+      },
+      "human_author": "MK <fengmk2@gmail.com>"
+    }
+  }
+}

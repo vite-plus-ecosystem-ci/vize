@@ -18,7 +18,5 @@
     "lint:json": "vp exec node ../../npm/oxint/dist/cli.mjs -c .oxlintrc.json -f json src",
     "lint:unused-vars-probe": "vp exec node ../../npm/oxint/dist/cli.mjs -c .oxlintrc.unused-vars.json -f stylish src/UnusedVarProbe.vue"
   },
-  "devDependencies": {
-    "oxlint": "catalog:linting"
-  }
+  "devDependencies": {}
 }

@@ -68,7 +68,6 @@
     "@pkl-community/pkl": "catalog:repo-tooling",
     "@tsdown/css": "catalog:content",
     "@types/node": "catalog:typescript",
-    "tsdown": "catalog:vite-stack",
     "typescript": "catalog:typescript",
     "vite": "catalog:vite-stack",
     "vite-plus": "catalog:vite-stack",

@@ -62,6 +62,7 @@
     "@vue/runtime-core": "catalog:vue-stable",
     "tsx": "catalog:typescript",
     "typescript": "catalog:typescript",
+    "vite": "catalog:vite-stack",
     "vite-plus": "catalog:vite-stack"
   },
   "peerDependencies": {

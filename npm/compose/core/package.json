@@ -148,6 +148,7 @@
   "devDependencies": {
     "@types/node": "catalog:typescript",
     "typescript": "catalog:typescript",
+    "vite": "catalog:vite-stack",
     "vite-plus": "catalog:vite-stack",
     "vue": "catalog:vue-stable"
   },
